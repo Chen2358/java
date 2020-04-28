@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test verbose="2" name="E:/javaProject/javaautotest/src/javaBase/FirstTestNG.java">
+    <classes>
+      <class name="javaBase.FirstTestNG">
+        <methods>
+          <include name="testAdd1"/>
+        </methods>
+      </class> <!-- javaBase.FirstTestNG -->
+    </classes>
+  </test> <!-- E:/javaProject/javaautotest/src/javaBase/FirstTestNG.java -->
+  <test name="E:/javaProject/javaautotest/src/javaBase/FirstTestNG.java(failed)">
+    <classes>
+      <class name="javaBase.FirstTestNG">
+        <methods>
+          <include name="testAdd1" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- javaBase.FirstTestNG -->
+    </classes>
+  </test> <!-- E:/javaProject/javaautotest/src/javaBase/FirstTestNG.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
